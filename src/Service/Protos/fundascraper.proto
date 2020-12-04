@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "FundaScraper";
+
+package fundascraper;
+
+service FundaScraper {
+	rpc GetObjectCount (GetObjectCountRequest) returns (GetObjectCountReply);
+}
+
+message GetObjectCountRequest {
+	string url = 1;
+}
+
+message GetObjectCountReply {
+	int32 count = 1;
+}

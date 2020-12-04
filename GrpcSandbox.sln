@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22CCC482-B039-4694-810A-778634E66200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "src\Service\Service.csproj", "{EA89D3A0-1AD9-49B9-90A6-432E695BC833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "src\Service\Service.csproj", "{EA89D3A0-1AD9-49B9-90A6-432E695BC833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "src\Client\Client.csproj", "{5DE2BF26-B96A-4059-BC9B-3B54C4506197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\Client\Client.csproj", "{5DE2BF26-B96A-4059-BC9B-3B54C4506197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA89D3A0-1AD9-49B9-90A6-432E695BC833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,8 +44,14 @@ Global
 		{5DE2BF26-B96A-4059-BC9B-3B54C4506197}.Release|x86.ActiveCfg = Release|Any CPU
 		{5DE2BF26-B96A-4059-BC9B-3B54C4506197}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EA89D3A0-1AD9-49B9-90A6-432E695BC833} = {22CCC482-B039-4694-810A-778634E66200}
 		{5DE2BF26-B96A-4059-BC9B-3B54C4506197} = {22CCC482-B039-4694-810A-778634E66200}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A85EDF28-4EE9-41F3-B797-D2792090386B}
 	EndGlobalSection
 EndGlobal
